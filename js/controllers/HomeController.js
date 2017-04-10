@@ -117,7 +117,7 @@ app.controller('HomeController', ['$scope', function($scope) {
 	}
 
 	$scope.posterClick = function(index){
-		if(index.posterindex == index.posters.length){
+		if(index.posterindex == index.posters.length-1){
 			index.posterindex = 0;
 		}
 

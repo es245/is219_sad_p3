@@ -39,8 +39,8 @@
         <div class="col-md-6" ng-repeat="movie in movies">
             <div class="thumbnail">
 
-					<img class="poster" />
-					<div class="imageInfo">{{movie.posterindex}}</div>
+					<img class="poster" src="{{movie.posters[movie.posterindex]}}" ng-click="posterClick(movie)"/>
+					<div class="imageInfo">Poster {{movie.posterindex+1}} of {{movie.posters.length}}</div>
 
 					<p class="title">{{movie.title}} {{movie.country}}</p>
 					<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{movie.iscore}} </p>
