@@ -88,6 +88,48 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
+	},
+		{
+			title:	'Snatch',
+      iscore:	8.3,
+      rating:	'R',
+      runtime:	102,
+      released:	new Date('2000', '1', '19'),
+      country:	'USA',
+      posters:	['img/snatch1.jpg','img/snatch2.jpg'],
+      imdb:		'http://www.imdb.com/title/tt0208092',
+      website:	'https://www.facebook.com/snatch',
+      likes:	567,
+      dislikes:	87,
+      posterindex: 0
+	},
+		{
+		title:	'Saving Private Ryan',
+		iscore:	8.6,
+		rating:	'R',
+		runtime:	169,
+		released:	new Date('1998', '7', '24'),
+		country:	'USA',
+		posters:	['img/svp1.jpg','img/svp2.jpg','img/svp3.jpg'],
+		imdb:		'http://www.imdb.com/title/tt0120815',
+		website:	'https://www.facebook.com/SavingPrivateRyanMovie',
+		likes:	1340,
+		dislikes:	289,
+		posterindex: 0
+	},
+		{
+		title:	'The Departed',
+		iscore:	8.5,
+		rating:	'R',
+		runtime:	151,
+		released:	new Date('2006', '10', '6'),
+		country:	'USA',
+		posters:	['img/departed1.jpg','img/departed2.jpg','img/departed3.jpg'],
+		imdb:		'http://www.imdb.com/title/tt0407887',
+		website:	'https://www.facebook.com/TheDepartedMovie',
+		likes:	988,
+		dislikes:	189,
+		posterindex: 0
 	}
 
 
